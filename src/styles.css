@@ -1,0 +1,30 @@
+h1,
+p {
+	font-family: Lato;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+select {
+	border: none;
+}
+
+input[type="number"] {
+	border: none;
+}
+
+.nav {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.grid-controls {
+	border-bottom: 1px solid #aaa;
+}

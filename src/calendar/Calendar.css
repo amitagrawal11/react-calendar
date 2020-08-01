@@ -1,0 +1,39 @@
+.calendar-container {
+	margin: auto;
+	width: 350px;
+	-webkit-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 30px -5px rgba(0, 0, 0, 0.75);
+}
+
+.grid-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 10px;
+	text-align: center;
+}
+
+.cell.weekend {
+	color: red;
+}
+
+.cell.selected {
+	background-color: #1c66e6;
+	color: white;
+}
+
+.cell.disable {
+	color: #ccc;
+}
+
+.cell:hover {
+	background-color: #1c66e6;
+	color: white;
+	cursor: pointer;
+}
+
+select,
+option {
+	text-align: right;
+}
